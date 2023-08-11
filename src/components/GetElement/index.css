@@ -1,0 +1,22 @@
+.heading {
+  color: rgb(124, 132, 139);
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.list-edit {
+  list-style-type: none;
+  margin-left: 10px;
+}
+.nav-logo-edit {
+  height: 20px;
+  margin-top: 10px;
+}
+.nav-logo-edit2 {
+  margin-top: 14px;
+  height: 10px;
+  margin-left: 3px;
+}

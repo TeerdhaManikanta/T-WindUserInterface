@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+  align-items: center;
+}
+.nav-edit {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+.main-logo {
+  height: 30px;
+  margin-top: 19px;
+}
+.company-name {
+  color: white;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+.logo-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-edit {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.input-div {
+  border-color: #7b8794;
+  border-style: solid;
+  width: 220px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.image-edit {
+  height: 30px;
+}
+
+input {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bright-img {
+  height: 30px;
+  margin-left: 10px;
+}
+.profile-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.profile-name-main {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.profile-name {
+  color: white;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.below-container {
+  width: 80%;
+  padding-bottom: 10px;
+}
+.pages-container {
+  display: flex;
+  justify-content: space-between;
+}
+.button-edit {
+  background-color: blue;
+  height: 35px;
+  width: 110px;
+  color: white;
+  font-family: Roboto;
+  border-style: none;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.span-edit {
+  color: blue;
+}
+.profile-container2 {
+  background-image: linear-gradient(to right, orange, white, purple);
+  height: 70px;
+}
+
+.profile-div {
+  background-color: #ffb6c1;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.profile-picture-edit {
+  height: 90px;
+  text-align: center;
+}
+.profile-top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.designation {
+  color: black;
+  font-family: Roboto;
+  margin-top: -10px;
+}
+.profile-names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-edit {
+  background-color: transparent;
+
+  border-style: none;
+  font-family: Roboto;
+  color: black;
+}
+
+.tab-container {
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-color: #c2c3be;
+
+  border-width: 2px;
+}
+.selected-tab-element {
+  font-weight: 700;
+  color: blue;
+  border-color: blue;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: transparent;
+}
+
+.projects-container-main-bg {
+  width: 68%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.About-container {
+  width: 400px;
+  border-color: #c2c3be;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.last-main-container {
+  display: flex;
+}
+
+.about-heading {
+  color: #7f8274;
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 13px;
+}
+
+.hr-app-style {
+  border-top: 1px dashed #7f8274;
+}
+.about-sub-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  color: #7f8274;
+}
+
+.about-para {
+  color: #c2c3be;
+  font-family: Roboto;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.social-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  margin-right: 5px;
+}
+.social-img-edit {
+  height: 20px;
+  margin: 5px;
+}
+.main-social-container {
+  display: flex;
+}

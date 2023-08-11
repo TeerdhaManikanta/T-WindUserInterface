@@ -1,0 +1,108 @@
+.project-div {
+  width: 400px;
+  border-color: #c2c3be;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 10px;
+  padding: 5px;
+}
+.heading-project {
+  font-family: Roboto;
+  font-size: 15px;
+  color: black;
+  margin-top: -2px;
+  align-self: center;
+}
+.project-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.font-awesome-icon {
+  color: #c2c3be;
+  align-self: center;
+}
+.icon-container {
+  display: flex;
+  color: #c2c3be;
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.space {
+  margin-left: 3px;
+}
+
+.text-edit {
+  color: #cbcbcb;
+  font-size: 12px;
+  font-family: Roboto;
+  margin-top: -8px;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -10px;
+}
+
+.para-twind {
+  font-family: Roboto;
+  font-size: 10px;
+  color: black;
+  align-self: center;
+  font-weight: bold;
+}
+.line-edit {
+  border-color: blue;
+  text-align: start;
+  border-width: 2px;
+}
+.line-edit2 {
+  border-color: black;
+  border-color: #87ceeb;
+  border-width: 2px;
+}
+.line-div {
+  width: 50%;
+}
+.line-main-div {
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.multiple-user-image-edit {
+  height: 30px;
+}
+
+.single-image-container {
+  margin-left: -10px;
+}
+.single-image-container4 {
+  background-color: #cbcbcb;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-left: -10px;
+  border-style: none;
+  color: white;
+}
+
+.project-sub2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.font-awesome-icons {
+  display: flex;
+  align-items: center;
+}
+.Trash-icon {
+  margin-left: 6px;
+}
